@@ -11,6 +11,21 @@ Oculus Home is an application for interacting with "officially sanctioned" Oculu
 3. Click on *OculusSetup.exe* and follow the on-screen directions.
 4. Towards the end of the process, you will put on the Oculus headset and use the Oculus Remote, so make sure to have them nearby and ready.
 
+## Oculus Software Development Kit
+
+
+## Leapmotion Orion
+
+"Orion" is the working name for Leapmotion's detection and response software on Windows.
+
+1. Download [Orion](https://www.leapmotion.com/setup) from the Leapmotion web site. There is also a copy of the installer (Leap_Motion_Setup_Win_3.1.3.exe) in your local Installers directory.
+2. Click on the Installer and follow the on-screen instructions.
+
+## Leapmotion Software Development Kit
+
+1. Go to the [Leapmotion Developers' Site](https://developer.leapmotion.com/get-started)
+2. Download [Orion Beta](https://central.leapmotion.com/users/sign_in?use_iframe=true&developer=1) software development kit. You will be asked to provide account information. If you did not create a Leapmotion account as part of setting up the Leapmotion system, you should do so now. There is a copy of the Orion Beta SDK installer (Leap_Motion_SDK_Windows_3.1.3.zip) in your Installers directory.
+
 ## Unity3D
 
 [Unity](http://unity3d.com) is a popular, user-friendly software platform for building rich, interactive games and multimedia experiences. In recent years, it has been enhanced to empower you to develop multi-platform VR and AR applications.
@@ -38,7 +53,7 @@ Firefox is a free and open web browser developed by the [Mozilla Foundation](htt
 4. Un-check the box that reads "Enable multi-process Nightly" [Screenshot](assets/ff2.png)
 5. Set Firefox Nightly as the default browser for Windows [Screenshot](assets/ff3.png)
 
-### Activate Firefox Nightly + Oculus Integration
+### Activating Firefox Nightly + Oculus Integration
 
 Because WebVR, Firefox, and Oculus are independent (and in some cases  very early-stage) software projects, compatibility can be a challenge. As of 11/27/2016, here's the sequence of events needed to initialize a Firefox WebVR session.
 * Close Firefox Nightly
@@ -68,7 +83,50 @@ We will use [GitHub](https://github.com) for collaborative coding and developmen
 3. Click on the *AtomSetup.exe* application and follow the instructions to install it.
 4. Launch Atom application and poke around. There is a set of plugins to choose from, including some that let you change the color scheme for Atom to suit your preference.
 
-## Docker for Windows (Optional)
+## Python language
+
+[Python](https://www.python.org/) is a very useful language for data processing and manipulation, as well as for general computation, and it's very commonly used in science. You can even use it for writing GUI applications and web applications!
+
+Python has two major versions: 3.5 and 2.7. If you're new to Python, jump in and learn 3.5. If you are an old hand or have extensive Python 2.7 code, you can use 2.7. The two versions are largely similar, but 3.5 has a lot of new functions and has fixes (that break backwards compatibility) for some of the weird or annoying aspects of 2.7. We'll use Python 2.7 in this workshop, but we've tried hard to make the code forward-compatible.
+
+On Mac OS X or Linux, Python is installed by default. On Windows, it must be installed as an application. Python itself is free and open source, but many people use the "Anaconda" distribution from [Continuum Analytics](https://www.continuum.io/) because it adds extra functionality (like being able to easily install Python modules and having an IDE).
+
+1. Download the Windows 64-bit installer from Continuum Analytics. There is also a copy of each in your Installers folder. Links: [Python 2.7](https://repo.continuum.io/archive/Anaconda2-4.2.0-Windows-x86_64.exe) | [Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
+
+
+## Applications and Utilities
+
+Copies of all these downloads are in the Installers folder on your workshop computer.
+
+### ChimeraX
+
+
+
+### 3d Slicer
+
+[3D Slicer](https://www.slicer.org/) is a free cross-platform open-source medical image processing and visualization system. It has been supported by multiple grants from the US National Institutes of Health (NIH) over almost two decades, and brings powerful medical image processing, visualization, and data analysis tools within reach of everyone.
+
+* Download [Slicer-4.6.2-win-amd64.exe](http://download.slicer.org/bitstream/561640)
+
+### Meshlab
+
+[MeshLab](http://meshlab.sourceforge.net/) is an open source, portable, and extensible system for the processing and editing of unstructured 3D triangular meshes. The system is aimed to help the processing of the typical not-so-small unstructured models arising in 3D scanning, providing a set of tools for editing, cleaning, healing, inspecting, rendering and converting this kind of meshes.
+
+At minimum, it's a useful converter for:
+* import:PLY, STL, OFF, OBJ, 3DS, COLLADA, PTX, V3D, PTS, APTS, XYZ, GTS, TRI, ASC, X3D, X3DV, VRML, ALN
+* export:PLY, STL, OFF, OBJ, 3DS, COLLADA, VRML, DXF, GTS, U3D, IDTF, X3D
+
+* Download [MeshLab_v133_64bit.exe](http://downloads.sourceforge.net/project/meshlab/meshlab/MeshLab%20v1.3.3/MeshLab_v133_64bit.exe?r=http%3A%2F%2Fmeshlab.sourceforge.net%2F&ts=1480338802&use_mirror=heanet)
+
+### Blender3D
+
+[Blender](https://www.blender.org/) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+
+* Download [blender-2.78a-windows64.msi](http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.78/blender-2.78a-windows64.msi)
+
+### Docker for Windows (Optional)
+
+
 
 
 
