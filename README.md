@@ -67,7 +67,7 @@ _Don't get discouraged. The tools surrounding WebVR development are aimed at pro
 
 ## GitHub Desktop
 
-We will use [GitHub](https://github.com) for collaborative coding and development. To streamline the experience for newer developers, we are using a desktop client for Git called *GitHub Desktop*.
+We will use [GitHub](https://github.com) for collaborative coding and development. To streamline the experience for newer developers, we are using a desktop client for Git called *GitHub Desktop*. [Screenshot](assets/gitdesktop.png)
 
 1. Sign up for (if you don't have one) a [GitHub account](https://github.com/join?source=header-home)
 2. Download the [GitHub Desktop installer](https://github-windows.s3.amazonaws.com/GitHubSetup.exe). A recent version is also available in the Installers directory on your computer.
@@ -76,7 +76,7 @@ We will use [GitHub](https://github.com) for collaborative coding and developmen
 
 ## Atom Code Editor
 
-[Atom](https://atom.io) is a free, extensible text editor that a lot of people use for writing software for the web. It supports syntax highlighting, which is really helpful when one is learning a new language or framework, and integrates with GitHub.com. It's also better than using Notepad.exe for developing software - please never do that!
+[Atom](https://atom.io) is a free, extensible text editor that a lot of people use for writing software for the web. It supports syntax highlighting, which is really helpful when one is learning a new language or framework, and integrates with GitHub.com. It's also better than using Notepad.exe for developing software - please never do that! [Screenshot](assets/atom.png)
 
 1. Go to the [Atom home page](https://atom.io) and sign in with your GitHub account
 2. Download the [Atom installer for Windows](https://atom.io/download/windows). There is a local copy in your Installers folder as well.
@@ -85,7 +85,7 @@ We will use [GitHub](https://github.com) for collaborative coding and developmen
 
 ## Python language
 
-[Python](https://www.python.org/) is a very useful language for data processing and manipulation, as well as for general computation, and it's very commonly used in science. You can even use it for writing GUI applications and web applications!
+[Python](https://www.python.org/) is a very useful language for data processing and manipulation, as well as for general computation, and it's very commonly used in science. You can even use it for writing GUI applications and web applications! [Screenshot](assets/spyder.png)
 
 Python has two major versions: 3.5 and 2.7. If you're new to Python, jump in and learn 3.5. If you are an old hand or have extensive Python 2.7 code, you can use 2.7. The two versions are largely similar, but 3.5 has a lot of new functions and has fixes (that break backwards compatibility) for some of the weird or annoying aspects of 2.7. We'll use Python 2.7 in this workshop, but we've tried hard to make the code forward-compatible.
 
@@ -93,10 +93,17 @@ On Mac OS X or Linux, Python is installed by default. On Windows, it must be ins
 
 1. Download the Windows 64-bit installer from Continuum Analytics. There is also a copy of each in your Installers folder. Links: [Python 2.7](https://repo.continuum.io/archive/Anaconda2-4.2.0-Windows-x86_64.exe) | [Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
 
-
 ## Applications and Utilities
 
-Copies of all these downloads are in the Installers folder on your workshop computer.
+Copies of every download referenced below are in the "Installers/Applications and Utilities" folder on your workshop computer.
+
+### Google Chrome
+
+[Google Chrome](https://www.google.com/chrome/index.html) is a fast, secure, and free web browser built for the modern web. It can sync bookmarks across all your devices, fills out forms automatically, and so much more. We prefer it because it's very compliant with modern WWW standards.
+
+* Download Chrome for Windows standalone installer [ChromeStandaloneSetup64.exe](https://www.google.com/intl/en/chrome/browser/desktop/index.html?standalone=1#)
+
+If you prefer to use a non-Google branded version of the same code, you could use [Chromium](https://download-chromium.appspot.com/). We do not recommend it for general use in this course, as we have not tested against it at all and the developers themselves say that it may be "tremendously buggy".
 
 ### ChimeraX
 
@@ -104,13 +111,13 @@ Copies of all these downloads are in the Installers folder on your workshop comp
 
 ### 3d Slicer
 
-[3D Slicer](https://www.slicer.org/) is a free cross-platform open-source medical image processing and visualization system. It has been supported by multiple grants from the US National Institutes of Health (NIH) over almost two decades, and brings powerful medical image processing, visualization, and data analysis tools within reach of everyone.
+[3D Slicer](https://www.slicer.org/) is a free cross-platform open-source medical image processing and visualization system. It has been supported by multiple grants from the US National Institutes of Health (NIH) over almost two decades, and brings powerful medical image processing, visualization, and data analysis tools within reach of everyone. [Screenshot](assets/3dslicer.png)
 
 * Download [Slicer-4.6.2-win-amd64.exe](http://download.slicer.org/bitstream/561640)
 
 ### Meshlab
 
-[MeshLab](http://meshlab.sourceforge.net/) is an open source, portable, and extensible system for the processing and editing of unstructured 3D triangular meshes. The system is aimed to help the processing of the typical not-so-small unstructured models arising in 3D scanning, providing a set of tools for editing, cleaning, healing, inspecting, rendering and converting this kind of meshes.
+[MeshLab](http://meshlab.sourceforge.net/) is an open source, portable, and extensible system for the processing and editing of unstructured 3D triangular meshes. The system is aimed to help the processing of the typical not-so-small unstructured models arising in 3D scanning, providing a set of tools for editing, cleaning, healing, inspecting, rendering and converting this kind of meshes. [Screenshot](assets/meshlab.png)
 
 At minimum, it's a useful converter for:
 * import:PLY, STL, OFF, OBJ, 3DS, COLLADA, PTX, V3D, PTS, APTS, XYZ, GTS, TRI, ASC, X3D, X3DV, VRML, ALN
@@ -120,7 +127,7 @@ At minimum, it's a useful converter for:
 
 ### Blender3D
 
-[Blender](https://www.blender.org/) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation.
+[Blender](https://www.blender.org/) is the free and open source 3D creation suite. It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, rendering, compositing and motion tracking, even video editing and game creation. [Screenshot](assets/blender.png)
 
 * Download [blender-2.78a-windows64.msi](http://ftp.nluug.nl/pub/graphics/blender/release/Blender2.78/blender-2.78a-windows64.msi)
 
@@ -128,7 +135,4 @@ At minimum, it's a useful converter for:
 
 
 
-
-
-
-Last Updated: 11/27/2016
+Last Updated: 11/28/2016
